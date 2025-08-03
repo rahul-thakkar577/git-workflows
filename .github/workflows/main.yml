@@ -2,10 +2,10 @@ name: Rahul thakkar
 
 on:
   push:
- 	  branches: [ main ]
-
+    branches: [ main ]
+ 	 
 jobs:
-	demo:
+  demo:
  		runs-on: ubantu-latest
 
 steps:
