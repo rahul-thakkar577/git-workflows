@@ -1,13 +1,13 @@
-name: Rahul thakkar
+ name: Rahul thakkar
 
-on:
-  push:
-    branches: [ main ]
- 	 
-jobs:
-  demo:
- 		runs-on: ubuntu-latest
-   
-    steps:
-	    - name: rise
-        run: echo "hello rahul here"
+ on:
+   push:
+     branches: [ main ]
+
+ jobs:
+     zzz:
+      runs-on: ubuntu-latest
+
+      steps:
+          - name: Rise
+            run: echo "rahul here"
