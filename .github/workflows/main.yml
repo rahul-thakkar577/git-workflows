@@ -1,0 +1,13 @@
+name: Rahul thakkar
+
+on:
+  push:
+ 	  branches: [ main ]
+
+jobs:
+	demo:
+ 		runs-on: ubantu-latest
+
+steps:
+	- name: rise
+    run: echo "hello rahul here"
