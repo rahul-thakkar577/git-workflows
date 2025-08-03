@@ -6,8 +6,8 @@ on:
  	 
 jobs:
   demo:
- 		runs-on: ubantu-latest
-
-steps:
-	- name: rise
-    run: echo "hello rahul here"
+ 		runs-on: ubuntu-latest
+   
+    steps:
+	    - name: rise
+        run: echo "hello rahul here"
